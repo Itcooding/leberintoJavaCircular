@@ -11,9 +11,11 @@ player.onChat("1", function () {
     y = y + 0
     z = z + 100
     material = BLUE_WOOL
-    numDeParedes = 5
-    radio = 10
-    altura = 3
+    numDeParedes = 5 //numero de paredes que voy a queres
+    radio = 10  //tadio inyerior del laberinto
+    altura = 3  //altura de cada pared
+
+    
     // Bucle para crear las paredes
     for (let index = 0; index < numDeParedes; index++) {
         // Bucle para crear las capas de cada pared
